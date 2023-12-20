@@ -19,9 +19,7 @@ A *path* is a sequence of vertices connected by edges. A path is *simple* if it 
 A graph is *simple* if it has no loops or multi edges.
 
 A subgraph of a graph $G$ is:
-$$
-(V,E):(V’ \subseteq V,\, E’ \subseteq E ) \wedge (u,v) \in E’ \implies u,v \in V’
-$$
+$$(V,E):(V’ \subseteq V,\, E’ \subseteq E ) \wedge (u,v) \in E’ \implies u,v \in V’$$
 A graph is *complete* if it has the maximum number of edges. 
 
 A graph is *connected* if there is a path for every pair of vertices. The *connected component* of the graph is the largest connected subgraph.
