@@ -11,7 +11,7 @@ Note how each element in $E$ is a pair of vertices, thus $e_i\in V \times V$. If
 The vertices *adjacent* to a vertex $v$ are in the set:
 $$N(v) = \\left\\{ u:(u,v) \in E \\right\\}$$
 The edges *incident* to $v$ are (edges that connect to the adjacent vertices)
-$$I(v) = \left\{ (u,v): u \in N(v) \right\}$$
+$$I(v) = \\left\\{ (u,v): u \in N(v) \\right\\}$$
 ### Paths
 A *path* is a sequence of vertices connected by edges. A path is *simple* if it has no repeated vertices. The path is also *cyclic* if it ends at the same vertex it started. 
 
