@@ -1,6 +1,4 @@
-#compsci #math
-
-The *degree* of a vertex $v \in V$ ([[Graphs]]) is denoted $\mathrm{deg}(v)$ and represents the number of *edges* incident on $v$, that is:
+The *degree* of a vertex $v \in V$ (**Graphs.md**) is denoted $\mathrm{deg}(v)$ and represents the number of *edges* incident on $v$, that is:
 $$
 \mathrm{ deg}(v) = |I(v)|
 $$
