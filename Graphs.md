@@ -1,9 +1,9 @@
 A graph is a collection of *vertices* (or nodes) connected by *edges*. Formally, we define a graph as a pair of sets:
 $$G = (V,E)$$
 Where $V$ is the set of all vertices:
-$$V = `\{ v_{1},v_{2},\dots,v_{n} `\}$$
+$$V = \\{ v_{1},v_{2},\dots,v_{n} \\}$$
 And $E$ is the set of all edges:
-$$E = `\{ e_{1}, e_{2}, \dots, e_{m} `\}$$
+$$E = \\{ e_{1}, e_{2}, \dots, e_{m} \\}$$
 Note how each element in $E$ is a pair of vertices, thus $e_i\in V \times V$. If each edge is ordered, then the graph is *directed*.
 
 ## Vocabulary
