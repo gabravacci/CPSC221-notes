@@ -1,4 +1,3 @@
-#compsci 
 
 We define $n$ as the number of vertices and let $m$ be the number of edges in a [[Graphs|graph (math)]]. Mathematically: $|V| = n,\, |E| = m$. 
 
@@ -13,14 +12,14 @@ For upper bounds we require knowledge on graph *simplicity*. If a graph is simpl
 Thus we can notice that for practicality we need our implementations to be simple and connected graphs. 
 ## Implementations
 ### Adjacency Matrix
-The [[Adjacency matrix|adjacency matrix]] implementation gives the following time complexities for the functions:
+The **adjacency matrix** implementation gives the following time complexities for the functions:
 - `insertVertex(V v)`: $O(1)$ (best) $\Theta(n^2)$ (worst) or $O(n)$ (amortized)
 - `removeVertex(V v)`: Similar as above (because of resizing) with best case $O(n)$
 - `areAdjacent(V v, V u)`: $O(1)$
 - `incidentEdges(V v)`: $O(n)$
 
 ### Adjacency list
-With an [[Adjacency list|adjacency list]] representation we have $\Theta(n+m)$ space usage, and the functions become:
+With an **adjacency list** representation we have $\Theta(n+m)$ space usage, and the functions become:
 - `insertVertex(V v)`: $O(1)$ (best) $\Theta(n^2)$ (worst) or $O(n)$ (amortized)
 - `removeVertex(V v)`: Similar as above (because of resizing) with best case $O(n)$
 - `areAdjacent(V v, V u)`: $O(1)$
